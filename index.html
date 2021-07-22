@@ -8,20 +8,25 @@
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/bootstrap.css">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?  family=Comfortaa:wght@300;400;500;600;700&display=swap"   rel="stylesheet">
     <title>Delani Studio</title>
 </head>
 
 <body>
     <!-- landing page -->
-    <div class="container-fluid">
-        <div style="display: flex; justify-content: center;">
-            <img src="./Assets/logo/logo.png" alt="welcome">
-               <p style="text-transform: uppercase;;"><span>welcome</span><br>
-                <span>to delani studios</span><br>
-                <span>amazing people are making amazing designs in 
-                 a fun environment</span></p>
-            
-            <img src="./Assets/mouse_click.png" alt="mouse" id="about-us">
+    <div id="landing">
+        <div class="container-fluid">
+            <div id="d-landing" >
+                <div class="img"><img id="img" src="./Assets/logo/logo.png" alt="welcome"></div>
+                   <p id="delani" style="text-transform: uppercase;;"><span class="display-3">welcome</span><br>
+                    <span class="display-4">to delani studios</span><br>
+                    <span id="span1" class="">amazing people are making amazing designs in 
+                     a fun environment</span></p>
+                    
+                <div><a href="#about-us"><img id="mouse" class src="./Assets/mouse_click.png" alt="mouse" ></a></div>    
+            </div>
         </div>
     </div>
     <!-- about us -->
@@ -56,7 +61,7 @@
 
         </div>
     </section>
-    <section>
+    <section id="whatWeDo">
         <div class="container">
             <div class="row mt-5">               
                     <div style="display: flex; justify-content: center;">
@@ -154,7 +159,7 @@
         </div>
     </section>
     <!-- contact section -->
-    <section class="contact mt-5">
+    <section id="contact" class="contact mt-5">
         <div style="text-transform: uppercase;display: flex;justify-content: center;"><h1>contact us</h1></div>
         <div style="display: flex; justify-content: center;">
             <form action="#">

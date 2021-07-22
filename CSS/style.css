@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+#landing{
+    /* font-family: 'Comfortaa', cursive; */
+    font-size: 36px;
+    background-image: url(../Assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/* #d-landing{
+margin-bottom: 20%;
+} */
+#delani{
+    text-align: center;
+    color: white;
+   font-weight: 900;
+    margin:3rem;
+}
+#span1{
+    font-size: 18px;
+    font-weight: 400;
+    /* margin:3rem; */
+}
+.img{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
