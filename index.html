@@ -27,7 +27,7 @@
     <!-- about us -->
     <section id="about-us">
         <div class="container-fluid">
-            <div class="container">
+            <div class="container mt-5">
                 <div class="row">
                     <div style="display: flex; justify-content: center;">
                         <h1 style="text-transform: uppercase;">about us</h1>
@@ -44,7 +44,7 @@
     <!-- Services section -->
     <section id="services">
         <div class="container-fluid">
-            <div class="container">
+            <div class="container mt-5">
                 <div style="display: flex; justify-content: center;">
                     <h1 style="text-transform: uppercase;">services</h1>
                 </div>
@@ -58,7 +58,7 @@
     </section>
     <section>
         <div class="container">
-            <div class="row">               
+            <div class="row mt-5">               
                     <div style="display: flex; justify-content: center;">
                         <p style="text-transform: uppercase;">
                             <span class="h1">what we do</span></p>
@@ -154,15 +154,32 @@
         </div>
     </section>
     <!-- contact section -->
-    <section class="contact">
+    <section class="contact mt-5">
         <div style="text-transform: uppercase;display: flex;justify-content: center;"><h1>contact us</h1></div>
-        <form action="#">
-            <input type="text" placeholder="Name...">
-            <input type="text" placeholder="Email..."><br>
-            <textarea name="message" id="message" cols="30" rows="10">Enter message</textarea><br>
-            <button type="button">send</button>
-        </form>
+        <div style="display: flex; justify-content: center;">
+            <form action="#">
+                <input type="text" placeholder="Name...">
+                <input class="mx-3" type="text" placeholder="Email..."><br>
+                <textarea class="mt-3" style="width: 100%;" name="message" id="message" cols="30"     rows="10">Your message here...</textarea><br>
+                <button class="btn-secondary" type="button">send</button>
+            </form>
+        </div>
     </section>
+    <!-- footer -->
+    <footer>
+        <div class="icons gap-2" style="display: flex;justify-content: center;">
+            <a href="#"><img src="./Assets/social_icons/twitter.png" alt=""></a>
+            <a href="#"><img src="./Assets/social_icons/dribble.png" alt=""></a>
+            <a href="#"><img src="./Assets/social_icons/facebook.png" alt=""></a>
+            <a href="#"><img src="./Assets/social_icons/g_plus.png" alt=""></a>
+            <a href="#"><img src="./Assets/social_icons/skype.png" alt=""></a>
+            <a href="#"><img src="./Assets/social_icons/stumble_upon.png" alt=""></a>
+            <a href="#"><img src="./Assets/social_icons/behance.png" alt=""></a>
+            <a href="#"><img src="./Assets/social_icons/pinterest.png" alt=""></a>
+            <a href="#"><img src="./Assets/social_icons/you_tube.png" alt=""></a>
+        </div>
+        <div style="display:flex; justify-content:center; text-transform: uppercase;">delani studio <br>2019</div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="./Js/index.js"></script>
