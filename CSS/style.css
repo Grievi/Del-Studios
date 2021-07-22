@@ -37,5 +37,15 @@ height: 50vh;
     align-items: center;  
 }
 #services{
-    
+   background-image: url(../Assets/backgrounds/s_image.jpg);
+   background-size: cover; 
+   background-repeat: no-repeat;
+   color: white;
+   font-size: 24px;
 }
+/* #ptag p{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+/* } */ 
+
