@@ -62,11 +62,14 @@
 }
 .col-md-3{
     position: relative;
+    
+    
 }
 .image {
     display: block;
     width: 100%;
     height: 100%;
+    
 }
 
 .image-overlay {
@@ -83,10 +86,13 @@
     align-items: center;
     justify-content: center;
     transition: opacity 0.25s;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .image-overlay>* {
-    transform: translateX(10px);
+    transform: translateX(30px);
     transition: transform 0.25s;
 }
 
@@ -95,7 +101,7 @@
 }
 
 .image-overlay:hover>* {
-    transform: translateX(0);
+    transform: translatey(10px);
     transition: transform 0.25s;
 }
 
