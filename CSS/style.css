@@ -1,61 +1,115 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
-#landing{
-    /* font-family: 'Comfortaa', cursive; */
+
+#landing {
+    position: relative;
     font-size: 36px;
     background-image: url(../Assets/backgrounds/h_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 100vh;
-    
+
 }
-#d-landing{
-    /* font-family: 'Comfortaa', cursive; */
-    padding-top: 10rem;  
+
+#d-landing {
+    position: absolute;
+    bottom: 3rem;
 }
-#img{
-    margin-top: 9rem;
+
+#img {
+    padding-bottom: 2rem;
 }
-#delani{
+
+#delani {
+    padding-top: 1em;
     text-align: center;
     color: white;
-   font-weight: 500;
-   margin-top: 4rem;
+    font-weight: 500;
+    /* margin-top: 4rem; */
 
 }
-#studios{
+
+#studios {
     color: white;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+
 }
- #amazing{
+
+#amazing {
     color: white;
     font-size: 16px;
-    margin-top: 1rem;
+
 }
 #mouse{
-    margin-top: 10rem;
-}
-#services{
-   background-image: url(../Assets/backgrounds/s_image.jpg);
-   background-size: cover; 
-   background-repeat: no-repeat;
-   color: white;
-   height:45vh;
-   padding-top: 2rem;
-   
+    padding-top:5rem;
 }
 
-#contact{
+#services {
+    background-image: url(../Assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    /* padding-top: 2rem; */
+
+}
+
+#row-img {
+    position: relative;
+}
+.col-md-3{
+    position: relative;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.25s;
+}
+
+.image-overlay>* {
+    transform: translateX(10px);
+    transition: transform 0.25s;
+}
+
+.image-overlay:hover {
+    opacity: 1;
+}
+
+.image-overlay:hover>* {
+    transform: translateX(0);
+    transition: transform 0.25s;
+}
+
+#contact {
     background-image: url(../Assets/backgrounds/c_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     color: white;
 }
-form{
+
+form {
     opacity: 0.1;
-    border-style:solid 1px white;
-    border-width: 1px; 
+    border-style: solid 1px white;
+    border-width: 1px;
     color: white;
 }
