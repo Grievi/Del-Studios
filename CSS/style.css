@@ -9,15 +9,33 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    
 }
 #d-landing{
-    font-family: 'Comfortaa', cursive;  
+    /* font-family: 'Comfortaa', cursive; */
+    padding-top: 10rem;  
+}
+#img{
+    margin-top: 9rem;
 }
 #delani{
     text-align: center;
     color: white;
-   font-weight: 900;
+   font-weight: 500;
+   margin-top: 4rem;
 
+}
+#studios{
+    color: white;
+    margin-top: 2rem;
+}
+ #amazing{
+    color: white;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+#mouse{
+    margin-top: 10rem;
 }
 #services{
    background-image: url(../Assets/backgrounds/s_image.jpg);
