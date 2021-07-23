@@ -16,7 +16,7 @@ $(document).ready(function(){
 
         $("#des").css("font-weight", "normal");
 
-        $("#pdesign").hide(1000)
+        $("#pdesign").hide(1000);
 
     });
 
@@ -44,5 +44,13 @@ $(document).ready(function(){
 
         $("#pproduct").toggle(1000);
 
+        $("#prod").css("font-weight", "bold");
+
+        $("#product").toggle(1000)
+
+    
     });
+
+    
 });
+
