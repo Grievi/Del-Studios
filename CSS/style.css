@@ -10,7 +10,9 @@
     background-repeat: no-repeat;
     height: 100vh;
 }
-
+#d-landing{
+    font-family: 'Comfortaa', cursive;  
+}
 #delani{
     text-align: center;
     color: white;
@@ -22,7 +24,8 @@
    background-size: cover; 
    background-repeat: no-repeat;
    color: white;
-   font-size: 24px;
+   height:45vh;
+   padding-top: 2rem;
    
 }
 
