@@ -66,11 +66,48 @@ debugger
         $(".image-title").css("border", "1px solid","white");
 
         $(".image-title").css("border-radius","2px")
+        $(".image-title").css("padding","5px")
     })
-
-    
 })
 
+// ----------form validation----------------
+
+
+function validation (){
+    
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let message = document.getElementById("message").value;
+    let error_message = document.getElementById("error_message");
+    let text;
+
+    error_message.style.padding = "10px"
+
+    if(name.length<=2 || name.length == ""){
+        text = "Please Enter a Valid Name";
+        error_message.innerHTML = text;
+        name.focus();
+        return false;
+    }
+    if (email.indexOf("@") == -1 || email.length < 6 || email.lenght == ""){
+        text = "Please Enter a Valid Email";
+        error_message.innerHTML = text;
+        name.focus();
+        return false;
+        
+    }
+    if(message.length>140 || message.length <= 50 || message.length == ""){
+        text = "Please Enter a more than 50 characters";
+        error_message.innerHTML = text;
+        name.focus();
+        return false
+    }
+    else{
+        alert("Your message has been received successfully. Thank You");
+        return true;
+    }
+    return true
+}
 
 
 
