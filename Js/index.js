@@ -1,5 +1,5 @@
 $(document).ready(function(){
-debugger
+
     $("#design").on("click", function(){
         
         $("#pdesign").toggle(1000);
@@ -86,28 +86,24 @@ function validation (){
     if(name.length<=2 || name.length == ""){
         text = "Please Enter a Valid Name";
         error_message.innerHTML = text;
-        name.focus();
         return false;
     }
     if (email.indexOf("@") == -1 || email.length < 6 || email.lenght == ""){
         text = "Please Enter a Valid Email";
         error_message.innerHTML = text;
-        name.focus();
         return false;
         
     }
     if(message.length>140 || message.length <= 50 || message.length == ""){
         text = "Please Enter a more than 50 characters";
         error_message.innerHTML = text;
-        name.focus();
         return false
     }
-    else{
-        // error_message.innerHTML.hide();
+   
         alert("Your message has been received successfully. Thank You");
         return true;
-    }
-    return true
+    
+   
 }
 
 
