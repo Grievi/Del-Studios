@@ -153,11 +153,27 @@ textarea{
 }
 #btn{
     background: transparent;
-    border:1px solid white
+    border:1px solid white;
+    color: white;
 }
 #btn:hover{
     background-color: #f5f5f5;
     color: black;
+}
+#btn1{
+    background: transparent;
+    border:1px solid white;
+    color:white;
+    
+}
+#btn1:hover{
+  
+    background-color: #f5f5f5;
+    color: black;
+    
+}
+.form-label{
+    color: white;
 }
 #error_message{
     /* display :none; */

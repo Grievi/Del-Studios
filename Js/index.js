@@ -103,6 +103,7 @@ function validation (){
         return false
     }
     else{
+        // error_message.innerHTML.hide();
         alert("Your message has been received successfully. Thank You");
         return true;
     }
@@ -110,6 +111,8 @@ function validation (){
 }
 
 
+
+  
 
 
 
