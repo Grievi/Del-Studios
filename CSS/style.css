@@ -2,8 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     /* color: white; */
+    
 }
-
+body{
+    overflow-x: hidden;
+}
 #landing {
     position: relative;
     font-size: 36px;
@@ -68,7 +71,6 @@
 .col-md-3{
     position: relative;
     
-    
 }
 .image {
     display: block;
@@ -129,12 +131,12 @@
     padding-bottom: 2rem;
 }
 
+
 form{
     padding-top: 1rem;
     left: 0;
     /* position: absolute; */
-   /* width: 60%; */
-
+  
 }
  input{
    /* color: white!important; */
@@ -145,6 +147,7 @@ form{
     color: white;
 }
 textarea{
+
     background: transparent;
     color: white;
     border: 1px solid white;
@@ -172,9 +175,9 @@ textarea{
     color: black;
     
 }
-.form-label{
+/* .form-label{
     color: white;
-}
+} */
 #error_message{
     /* display :none; */
     margin-bottom: 20px;

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-debugger
+
     $("#design").on("click", function(){
         
         $("#pdesign").toggle(1000);
@@ -74,40 +74,35 @@ debugger
 
 
 function validation (){
-    
-    let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let message = document.getElementById("message").value;
-    let error_message = document.getElementById("error_message");
-    let text;
+  
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+    var error_message = document.getElementById("error_message");
+    var text;
 
     error_message.style.padding = "10px"
 
     if(name.length<=2 || name.length == ""){
         text = "Please Enter a Valid Name";
         error_message.innerHTML = text;
-        name.focus();
         return false;
     }
     if (email.indexOf("@") == -1 || email.length < 6 || email.lenght == ""){
         text = "Please Enter a Valid Email";
         error_message.innerHTML = text;
-        name.focus();
         return false;
         
     }
     if(message.length>140 || message.length <= 50 || message.length == ""){
         text = "Please Enter a more than 50 characters";
         error_message.innerHTML = text;
-        name.focus();
-        return false
+        return false;
     }
-    else{
-        // error_message.innerHTML.hide();
-        alert("Your message has been received successfully. Thank You");
-        return true;
-    }
-    return true
+
+    alert("Your message has been received successfully. Thank You")
+    return true;
+
 }
 
 
