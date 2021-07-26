@@ -99,9 +99,9 @@ function validation (){
         error_message.innerHTML = text;
         return false;
     }
-
+    else{
     alert("Your message has been received successfully. Thank You")
-    return true;
+    return true;}
 
 }
 
